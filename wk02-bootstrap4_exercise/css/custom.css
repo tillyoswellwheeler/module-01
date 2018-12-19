@@ -1,0 +1,121 @@
+/*Custom css stylesheet */
+
+
+.jumbotron {
+  background-image: url("../images/fruit-and-veg.jpg");
+  background-repeat: no-repeat;
+  background-size: cover;
+  border-radius: 0;
+  min-height: 600px;
+}
+
+#mission {
+  background-color: rgba(32, 35, 41, 0.9);
+  color: #ddd;
+  padding: 40px ;
+}
+
+#buzz {
+  margin-bottom: 30px;
+}
+
+.form-inline label {
+  font-size: 20px;
+  font-weight: bold;
+  color: white;
+  width:100%;
+  justify-content: flex-start;
+}
+
+.form-inline input {
+  min-width: 300px;
+  margin-right: 10px;
+}
+
+.navbar-dark {
+  background-color: rgba(32, 35, 41, 0.8);
+}
+
+.jumbotron {
+  padding-top: 100px;
+}
+
+/* Button styles */
+
+.btn-facebook {
+  background-color: #3b5998;
+}
+
+.btn-twiiter {
+  background-color: #1da1f2;
+}
+
+.btn-pinterest {
+  background-color: #bd081c;
+}
+
+#social-buttons .btn-primary {
+  border: none;
+}
+
+.btn-facebook:hover {
+  background-color: #768bb7;
+}
+
+.btn-twiiter:hover {
+  background-color: #60bdf6;
+}
+
+.btn-pinterest:hover {
+  background-color: #d15260;
+}
+
+#social-buttons {
+  margin-top: 100px;
+}
+
+/* Extra Typography styling */
+.jumbotron h1 {
+  font-family: "Vast Shadow", cursive;
+  color: white;
+}
+
+h2 {
+  margin-bottom: 50px;
+}
+
+p blockquote {
+  line-height: 1.2;
+}
+
+blockquote footer {
+  font-size: 70%;
+}
+
+#buzz #colophon {
+  padding: 50px 0;
+}
+
+#colophon p {
+  font-size: 80%;
+  color: grey;
+}
+
+#colophon a {
+  color: grey;
+  text-decoration: underline;
+}
+
+@media screen (min-width: 576px) {
+  .jumbotron h1 {
+    font-size: 2.5rem;
+  }
+}
+
+form button {
+  margin-top: 10px;
+}
+
+#colophon {
+  margin-top: 15px;
+}
